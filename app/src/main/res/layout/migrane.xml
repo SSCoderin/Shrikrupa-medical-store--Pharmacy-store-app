@@ -1,0 +1,292 @@
+<!-- influenza_info.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Migrane"
+                android:textSize="30sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. Symptoms"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Throbbing or pulsating pain, often on one side of the head. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Sensitivity to light, noise, and sometimes smell. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Nausea and vomiting. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Visual disturbances (aura) like flashing lights or blind spots. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2. Phases of Migrane "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Prodrome Phase: Warning signs that can occur hours or days before the headache. These can include mood changes, food cravings, and increased urination.  "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Aura Phase (for some individuals): Visual disturbances or other sensory changes that precede the headache.  "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Headache Phase: The actual migraine, which can last from hours to days. It's often accompanied by other symptoms like nausea and sensitivity to light and sound.  "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Postdrome Phase: The aftermath, which can leave individuals feeling drained or &quot;hungover.&quot;  "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3. Precautions"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Identify Triggers:  Keep a migraine diary to track potential triggers like specific foods, beverages, stressors, hormonal changes, or environmental factors. This can help in avoiding or minimizing exposure to triggers."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Maintain a Regular Sleep Schedule:  Aim for consistent sleep patterns. Avoid oversleeping on weekends or staying up too late."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Stay Hydrated:  Dehydration can trigger migraines. Drink an adequate amount of water throughout the day."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Manage Stress:  Practice relaxation techniques such as deep breathing, meditation, or yoga. Engage in regular exercise, which can help reduce stress levels."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Dietary Considerations:  Be mindful of potential trigger foods like caffeine, alcohol, aged cheeses, artificial sweeteners, and processed foods. Maintain a balanced and nutritious diet."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Limit Exposure to Strong Stimuli:  Bright lights, loud noises, and strong odors can trigger migraines. Use sunglasses, earplugs, or avoid such stimuli when possible."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Take Regular Breaks:  If you work on a computer or perform tasks that require prolonged focus, take breaks to rest your eyes and stretch."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Regular Exercise:  Engage in regular, moderate exercise to improve overall health and reduce the frequency and severity of migraines."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Maintain a Healthy Routine:  Establish a daily routine that includes regular meals, exercise, and adequate sleep."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="4. Treatment and Management"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Pain Relief Medications: Over-the-counter pain relievers or prescription medications like triptans. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Preventive Medications: Taken regularly to reduce the frequency and severity of migraines. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Lifestyle Changes: Stress management, regular exercise, consistent sleep patterns, and dietary adjustments. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Biofeedback and Relaxation Techniques: Can help manage pain and reduce the frequency of migraines.&#xA;" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Add more TextViews for each symptom -->
+
+    <!-- Add more TextViews for spreading information -->
+
+    <!-- Add more TextViews for precautions -->
+
+</LinearLayout>

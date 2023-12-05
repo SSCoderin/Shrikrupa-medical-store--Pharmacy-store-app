@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/b6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Precaution.precaution">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/common"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="#304FFE"
+                    android:gravity="center"
+                    android:text="Diseases And Precautions"
+                    android:textColor="#FEFEFE"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Common Disease"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/Flu"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Influenza (Flu)"
+                    android:textColor="#000000"
+
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/covid"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="COVID-19"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/cold"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Common Cold"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/hyper"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Hypertension (High Blood Pressure)"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/diadetes"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Diabetes Mellitus (Type 1 and Type 2 Diabetes)"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/asthma"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Asthma"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/tb"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Tuberculosis (TB)"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/malaria"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Malaria"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/dengue"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Dengue Fever"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/depression"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Depression"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/kidney"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Kidney Stones"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/hiv"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="HIV/AIDS"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/Migraine"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Migraine"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/rare"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Rare Disease"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Stiff Skin Syndrome"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Huntington's Disease"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Stiff Person Syndrome"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Fields' Syndrome "
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Lack of Vitamins"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/a"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin A"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/b1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin B1"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/b2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin B2"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/b3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin B3"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/b4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin B4"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/b5"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin B5"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/b7"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin B7"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/b8"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin B8"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/b9"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin B9"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/b12"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin B12"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/c"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin C"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/d"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin D"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+
+                    android:id="@+id/e"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="#80D8FF"
+                    android:fontFamily="@font/amaranth"
+                    android:gravity="left|center_vertical"
+                    android:text="Vitamin E"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShrikrupaMedical"
+        tools:targetApi="31">
+        <activity
+            android:name=".GeneralStore.SavedListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Doctor4"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Doctor3"
+            android:exported="false" />
+        <activity
+            android:name=".Doctor.Doctor2"
+            android:exported="false" />
+        <activity
+            android:name=".ItemDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralStore.Diabetic"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".GeneralStore.Condition"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".GeneralStore.Personal"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".GeneralStore.Ayurvedic"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".GeneralStore.Bandage"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".GeneralStore.HealthFood"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".GeneralStore.HealthDrinks"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".Doctor.doctor1"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralStore.BabyCare"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".GeneralStore.SkinCare"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".GeneralStore.UploadGeneralStore"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.lungs"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.neck"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.kneepain"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.kidney"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.ankle"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.head"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.back"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.heart"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.stomach"
+            android:exported="false" />
+        <activity
+            android:name=".healthcare.EyeCare"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".Precaution.precaution"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".Doctor.doctor"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".ContactUs.contact"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".DataUploadRetrive.Medicine.UploadMedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DataUploadRetrive.Medicine.PeopleMedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DataUploadRetrive.NewProductUplload"
+            android:exported="false" />
+        <activity
+            android:name=".AboutShop"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".Owner"
+            android:exported="false"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+        <activity
+            android:name=".SIgnUp"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ShrikrupaMedical.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

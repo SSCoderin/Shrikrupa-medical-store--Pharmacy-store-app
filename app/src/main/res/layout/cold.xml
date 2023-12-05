@@ -1,0 +1,234 @@
+<!-- influenza_info.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Common Cold"
+                android:textSize="30sp" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. Symptoms"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Runny or stuffy nose"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Sneezing"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Coughing"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Sore throat"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Muscle or body aches"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Headaches"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Fatigue (tiredness)"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2. How it Spread"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Primarily through respiratory droplets when an infected person coughs, sneezes, talks, or breathes."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="It can also spread by touching contaminated surfaces and then touching the face."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3. Precautions"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Wash hands with soap and water for at least 20 seconds."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Refrain from touching eyes, nose, and mouth with unwashed hands."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Stay away from sick individuals."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=" Avoid public places if feeling unwell."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Maintain a balanced diet and exercise routine."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Ensure proper hydration for healthy mucous membranes."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Stay home when you are sick, and keep children home from school when they are sick."
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Add more TextViews for each symptom -->
+
+    <!-- Add more TextViews for spreading information -->
+
+    <!-- Add more TextViews for precautions -->
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".DataUploadRetrive.Medicine.UploadMedicineActivity">
+
+    <ImageView
+        android:id="@+id/medicineImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/selectImageButton"
+        android:layout_width="262dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#0D3BB8"
+        android:text="Select Image"
+        android:textColor="#FEFEFE" />
+
+    <EditText
+        android:id="@+id/medicineNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Medicine Name"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/personNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Person Name"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/phoneNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="253dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#0D3BB7"
+        android:text="Upload"
+        android:textColor="#FEFEFE" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="note: please wait until page  get refresh"
+        android:textColor="#DD2C00"
+        android:textSize="16sp" />
+
+</LinearLayout>

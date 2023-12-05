@@ -1,0 +1,338 @@
+<!-- influenza_info.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Kidney Stone"
+                android:textSize="30sp" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Types of Kidney Stone "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Calcium Stones: The most common type, formed when calcium combines with oxalate or phosphate. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Uric Acid Stones: Formed when there is too much acid in the urine. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Struvite Stones: Develop as a result of urinary tract infections. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Cystine Stones: Rare and caused by a genetic disorder. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1. Symptoms"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Severe pain in the back, side, or lower abdomen "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Painful urination "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Hematuria (blood in urine) "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Frequent urination "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Cloudy or foul-smelling urine "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Nausea and vomiting "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Fever and chills (if there's an infection) "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2. Causes"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Dehydration "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="High levels of certain minerals in the urine "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Family history of kidney stones "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Certain medical conditions (e.g., hyperparathyroidism) "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Certain diets high in sodium or animal protein "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3. Precautions"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Stay well-hydrated to dilute minerals in the urine. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Reduce sodium intake and avoid high-oxalate foods. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Maintain a healthy weight and balanced diet. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Limit consumption of animal proteins. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Seek medical advice for underlying conditions that may contribute to stone formation. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="4. Treatment and Management"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Watchful Waiting: For small stones that may pass on their own with increased fluid intake. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Medications: Pain relief and medications to help pass the stone. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Extracorporeal Shock Wave Lithotripsy (ESWL): Shock waves break up the stone into smaller pieces. "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==========================================" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Add more TextViews for each symptom -->
+
+    <!-- Add more TextViews for spreading information -->
+
+    <!-- Add more TextViews for precautions -->
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<!-- activity_upload_general_store.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GeneralStore.UploadGeneralStore">
+
+    <!-- Drop-down menu to select category -->
+
+    <!-- Button to upload image -->
+
+    <Button
+        android:id="@+id/backpage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#29B6F6"
+        android:text="Back" />
+
+    <Spinner
+        android:id="@+id/category_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Upload Image  ratio(1:1)" />
+
+    <!-- Image view to display the selected image -->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <!-- EditText fields for name, price, tag -->
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/price_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Price"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/tag_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Tag" />
+
+    <!-- Button to submit data -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Submit" />
+
+</LinearLayout>

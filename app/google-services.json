@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "582706257937",
+    "project_id": "shrikrupamedicalstore-9a291",
+    "storage_bucket": "shrikrupamedicalstore-9a291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582706257937:android:56ab9023bb1188496711b0",
+        "android_client_info": {
+          "package_name": "com.shiv.shrikrupamedical"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGnQQa-QPmU7HDZqUnYlvt7lQE8SOYVQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

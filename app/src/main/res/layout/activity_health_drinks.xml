@@ -1,0 +1,44 @@
+<!-- activity_skin_care.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".GeneralStore.HealthDrinks">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00B8D4"
+        android:gravity="center"
+        android:text="@string/health_drinks"
+        android:textColor="#FEFEFE"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="230dp">
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            app:srcCompat="@drawable/healthd1" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent" >
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Health_care_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
